@@ -8,7 +8,7 @@ import tests.TestBase;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Tag("Simple")
-public class SkippedTests extends TestBase {
+public class SkippedTests {
 
     @Test
     @Disabled("Some reason")
