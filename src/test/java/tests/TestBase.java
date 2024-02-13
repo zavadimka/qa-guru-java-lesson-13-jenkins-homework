@@ -13,11 +13,11 @@ import java.util.Map;
 public class TestBase {
 
     @BeforeAll
-    static void beforeAll(){
+    static void beforeAll() {
 
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1480";
-         Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = true;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
