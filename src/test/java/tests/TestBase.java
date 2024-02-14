@@ -13,7 +13,7 @@ import java.util.Map;
 public class TestBase {
 
     @BeforeAll
-    static void beforeAll(){
+    static void beforeAll() {
 
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1480";
